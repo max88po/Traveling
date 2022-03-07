@@ -1,13 +1,14 @@
 @import './main/stylesheet.scss';
-
+@import './components/explore.scss';
 
 * { box-sizing: border-box; 
     padding: 0;
     margin: 0; }
 
 .container {
-        max-width: 1080px;
+        max-width: 1270px;
         margin: 0 auto;
         padding: 0 15px;
+    
 }
     

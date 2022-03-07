@@ -1,0 +1,130 @@
+.gradient {
+    background: rgba(31, 94, 55, 1);
+    height: 951px;
+    border-radius: 10% / 30%;
+    
+}
+.header {
+    
+    display: flex;
+
+    &__name {
+
+        margin-top: 54px;
+
+    }
+
+    &__nav  {
+        margin-top: 57px;
+        
+
+    }
+
+    &__btn {
+        margin-top: 57px;
+        padding-left: 156px;
+    }
+    
+    
+}
+
+.logo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    padding-right: 237px;
+}
+
+.link {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    padding-right: 80px;
+    text-decoration: none;
+}
+
+.btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 24px;
+}
+
+a.btn:hover {
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+    border-radius: 100px;
+    padding: 13px 44px;
+}
+
+a.link:hover {
+    width: 35px;
+    height: 4px;
+    background: #C4C4C4;
+    border-radius: 100px;
+}
+
+.explore {
+    width: 603px;
+    padding-top: 95px;
+   
+}
+
+.sup__title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 11px 30px 12px 31px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    display:inline-flex;
+
+}
+
+.title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #FFFFFF;
+}
+
+.sub__title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 519px;
+    padding-top: 30px;
+    padding-bottom: 68px;
+    
+}
+
+a.btn__exsp {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FEFEFE;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 27px;
+    padding: 27px 47px 26px 48px;
+
+
+}
