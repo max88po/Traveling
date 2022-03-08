@@ -1,13 +1,13 @@
 .gradient {
     background: rgba(31, 94, 55, 1);
     height: 951px;
-    border-radius: 10% / 30%;
+    
     
 }
 .header {
     
     display: flex;
-
+  
     &__name {
 
         margin-top: 54px;
@@ -125,6 +125,11 @@ a.btn__exsp {
     background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
     border-radius: 27px;
     padding: 27px 47px 26px 48px;
+    text-decoration: none;
+}
 
 
+
+.gray {
+    background: gray;
 }

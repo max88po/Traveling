@@ -1,0 +1,45 @@
+
+
+.subscribe {
+    
+    position: relative;
+    bottom: 0;
+    right: 0;
+    
+    &__title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 55px;
+        line-height: 82px;
+        max-width: 497px;
+        color: #0F1F1C;
+    }
+
+    &__email {
+        
+        max-width: 800px;
+        height: 129px;
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #C4C4C4;
+        border-radius: 35px;
+        border: none;
+        padding: 47px 506px 46px 46px;
+       
+
+    }
+
+    &__btn {
+        position: absolute;
+        bottom: 20px;
+        right: 570px;
+        background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+        border-radius: 35px;
+        color: #fff;
+        padding: 34px 87px 33px 86px;
+        border:none;
+        
+    }
+    
+
+}
+

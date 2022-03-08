@@ -1,0 +1,88 @@
+
+.footer {
+
+    display: flex;
+    height: 200px;
+    
+    &__name {
+        
+        margin-top: 116px;
+
+    }
+
+    &__logo {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgba(255, 124, 78, 1);
+    }
+
+    &__nav {
+        margin-top: 119px;
+        padding: 0px 137px 0px 218px;
+
+    }
+
+    &__link {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: rgba(15, 31, 28, 0.5);
+        padding-right: 80px;
+        text-decoration: none;
+
+    }
+
+    &__batton {
+        
+        margin-top: 119px;
+        
+    }
+
+
+
+    &__btn {
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #838B89;
+        text-decoration: none;
+    }
+
+    &__sbtn {
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #838B89;
+        text-decoration: none;
+        padding-left: 24px;
+    }
+
+    
+}
+
+
+
+.footer__btn:hover {
+    background: linear-gradient(0deg, #FF7C4E, #FF7C4E), #C4C4C4;
+    border-radius: 100px;
+    color: white;
+    padding: 13px 43px;
+}
+.footer__sbtn:hover {
+    background: linear-gradient(0deg, #FF7C4E, #FF7C4E), #C4C4C4;
+    border-radius: 100px;
+    color: white;
+    padding: 13px 43px;
+}
+
