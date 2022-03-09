@@ -2,18 +2,18 @@
 
 .subscribe {
     
-    position: relative;
-    bottom: 0;
-    right: 0;
+   
     
     &__title {
+        
         font-family: Poppins;
         font-style: normal;
         font-weight: 600;
         font-size: 55px;
         line-height: 82px;
-        max-width: 497px;
+        max-width: 493px;
         color: #0F1F1C;
+        
     }
 
     &__email {
