@@ -1,5 +1,11 @@
 .star {
-    padding-top: 191px;
+    padding-top: 200px;
+    
+    display: flex;
+    gap: 0 68px;
+
+    padding-bottom: 233px;
+
     &__map {
         max-width: 478px;
         max-height: 537px;
@@ -7,11 +13,78 @@
         
     }
 
-    
+    &__title {
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 68px;
+        color: #0F1F1C;
+        max-width: 565px;
+        padding-bottom: 35px;
+    }
+
+
+    &__item {
+        padding-bottom: 60px;
+    }
+
+    &__avatar {
+
+        background: #FF794E;
+        border-radius: 71.5px;
+        max-width: 134px;
+        max-height: 134px;
+        padding-right: 7px;
+    }
+
+    &__item_1 {
+        padding-left: 33px;
+    }
+
+    &__hobby {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 50px;
+        color: #0F1F1C;
+        padding-top: 18px;
+        padding-bottom: 10px;
+       
+    }
+
+    &__name {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 38px;
+        color: rgba(15,31,28,0.5);
+    }
+
+    &__comment {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        color: rgba(15,31,28,0.5);
+        max-width: 491px;
+        padding-bottom: 30px;
+
+    }
+
+
+    &__stars {
+        padding-right: 8px;
+    }
 
 
 
+}
 
-
-
+.star__item {
+    display: flex;
 }
