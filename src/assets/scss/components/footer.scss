@@ -40,6 +40,7 @@
     &__batton {
         
         margin-top: 119px;
+
         
     }
 
@@ -54,6 +55,7 @@
         line-height: 22px;
         color: #838B89;
         text-decoration: none;
+        
     }
 
     &__sbtn {
@@ -63,9 +65,13 @@
         font-weight: 500;
         font-size: 15px;
         line-height: 22px;
-        color: #838B89;
+        color: #fff;
         text-decoration: none;
-        padding-left: 24px;
+        padding: 13px 44px 13px 43px;
+        background: linear-gradient(0deg, #FF7C4E, #FF7C4E), #C4C4C4;
+        border-radius: 100px;
+        margin-left: 64px;
+
     }
 
     
@@ -73,16 +79,5 @@
 
 
 
-.footer__btn:hover {
-    background: linear-gradient(0deg, #FF7C4E, #FF7C4E), #C4C4C4;
-    border-radius: 100px;
-    color: white;
-    padding: 13px 43px;
-}
-.footer__sbtn:hover {
-    background: linear-gradient(0deg, #FF7C4E, #FF7C4E), #C4C4C4;
-    border-radius: 100px;
-    color: white;
-    padding: 13px 43px;
-}
+
 
