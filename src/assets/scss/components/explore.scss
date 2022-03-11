@@ -1,5 +1,6 @@
 .gradient {
-    background: rgba(31, 94, 55, 1);
+    
+background: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%);
     height: 951px;
     
     
@@ -47,6 +48,7 @@
     color: #fff;
     padding-right: 80px;
     text-decoration: none;
+    transition: 1s;
 }
 
 .btn {
@@ -126,4 +128,9 @@ a.btn__exsp {
 
 .gray {
     background: gray;
+}
+
+
+.link:hover {
+    color:#FF7B4E ;
 }
