@@ -2,6 +2,9 @@
 
 .subscribe {
     
+    display: grid;
+    justify-items: center;
+   
    
     
     &__title {
@@ -11,35 +14,54 @@
         font-weight: 600;
         font-size: 55px;
         line-height: 82px;
-        max-width: 493px;
+        
+        max-width: 494px;
         color: #0F1F1C;
         
     }
 
     &__email {
         
-        max-width: 800px;
-        height: 129px;
-        background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #C4C4C4;
-        border-radius: 35px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: rgba(15, 31, 28, 0.5);
+        text-align: center;
         border: none;
-        padding: 47px 506px 46px 46px;
+        padding-right: 191px;
+        
        
 
     }
 
     &__btn {
-        position: absolute;
-        bottom: 20px;
-        right: 570px;
         background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
         border-radius: 35px;
         color: #fff;
         padding: 34px 87px 33px 86px;
         border:none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
         
     }
     
+    &__form {
+        max-width: 800px;
+        margin-top: 60px;
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #C4C4C4;
+        border-radius: 35px;
+        padding: 46px;
+        
+    }
 
 }
 
+.subscribe__title:first-child {
+    padding-top: 135px;
+}
